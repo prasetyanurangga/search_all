@@ -126,8 +126,8 @@ export default function Home() {
             </p>
             <div className="flex justify-center items-center  w-full ">
                 <div className=" relative bg-white w-full mr-2  rounded-md">
-                  <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                      <SearchIcon className="h-5 w-5 text-gray-300 focus:text-indigo-400" aria-hidden="true" style="z-index:5"/>
+                  <span className="absolute left-0 inset-y-0 flex items-center pl-3" style="z-index:5;">
+                      <SearchIcon className="h-5 w-5 text-gray-300 focus:text-indigo-400" aria-hidden="true" />
                     </span>
                   <input
                     type="text"
