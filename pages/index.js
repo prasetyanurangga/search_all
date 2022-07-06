@@ -127,9 +127,7 @@ export default function Home() {
             <div className="flex justify-center items-center lg:w-96 w-full ">
                 <div className=" relative bg-white w-full mr-2  rounded-md">
                   <span className="absolute left-0 inset-y-0 flex items-center pl-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                      </svg>
+                      <SearchIcon className="h-5 w-5 text-gray-300 focus:text-indigo-400" aria-hidden="true" style="z-index:5"/>
                     </span>
                   <input
                     type="text"
