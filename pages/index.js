@@ -79,29 +79,27 @@ export default function Home() {
 
     const target = event.target;
     var value = target.value;
-    console.log(target)
 
     var temp = [...searchItem]
     temp[value].checked = target.checked
 
     setSearchItem(temp)
-
-    console.log(searchItem)
   }
 
   function handleSearch(){
 
     
-    searchItem.forEach((item) => {
-      if(item.checked){
-        window.open(item.url + query)
-      }
-    })
+    if(query != "" && searchItem.map((item) => item.checked).includes(true)){
+      searchItem.forEach((item) => {
+        if(item.checked){
+          window.open(item.url + query)
+        }
+      })
 
-    setSearchItem(initialSearchItem)
-    setQuery("")
+      setSearchItem(initialSearchItem)
+      setQuery("")
+    }
 
-    console.log(searchItem)
   }
 
   function handleClickSupport(){
