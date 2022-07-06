@@ -112,7 +112,7 @@ export default function Home() {
       <Head>
         <title>Search All</title>
         <meta name="description" content="search on multiple websites at the same time" />
-        <link rel="icon" href="/icon.ico"567 />
+        <link rel="icon" href="/icon.ico" />
       </Head>
 
       <div className="py-12 bg-gray-200 h-screen flex lg:justify-center justify-start flex-col items-center relative">
