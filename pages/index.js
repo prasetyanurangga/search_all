@@ -104,6 +104,7 @@ export default function Home() {
 
   function handleClickSupport(){
     window.open("https://ko-fi.com/prasetyanurangga")
+    window.open("https://www.nihbuatjajan.com/prasetyanurangga")
   }
 
   return (
