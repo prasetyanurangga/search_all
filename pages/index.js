@@ -124,7 +124,7 @@ export default function Home() {
             <p className="mb-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               search on multiple websites at the same time
             </p>
-            <div className="flex justify-center items-center lg:w-96 w-full ">
+            <div className="flex justify-center items-center  w-full ">
                 <div className=" relative bg-white w-full mr-2  rounded-md">
                   <span className="absolute left-0 inset-y-0 flex items-center pl-3">
                       <SearchIcon className="h-5 w-5 text-gray-300 focus:text-indigo-400" aria-hidden="true" style="z-index:5"/>
