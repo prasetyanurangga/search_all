@@ -134,6 +134,7 @@ export default function Home() {
                     value={query}
                     placeholder="Search..."
                     onChange={handleChangeSearchText}
+                    onKeyPress={(e) => e.key === 'Enter' && handleChangeSearchText()}
                     className="pl-9 focus:ring-indigo-500 p-3 focus:border-indigo-500 block relative bg-white  w-full shadow-sm sm:text-sm border-gray-300  rounded-md"
                   />
                 </div>
