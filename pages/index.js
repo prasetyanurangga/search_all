@@ -112,6 +112,7 @@ export default function Home() {
       <Head>
         <title>Search All</title>
         <meta name="description" content="search on multiple websites at the same time" />
+        <meta name="google-site-verification" content="sR5-kXNVXCrfp27ZZlRHM_-wSW7EgxMZoc2WJAbqe60" />
         <link rel="icon" href="/icon.ico" />
       </Head>
 
